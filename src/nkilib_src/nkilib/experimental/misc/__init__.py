@@ -16,5 +16,6 @@
 
 from .gather import gather
 from .scatter_add import scatter_add
+from .scatter_add_dedup import scatter_add_dedup
 
-__all__ = ["gather", "scatter_add"]
+__all__ = ["gather", "scatter_add", "scatter_add_dedup"]
